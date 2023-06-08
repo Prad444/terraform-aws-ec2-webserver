@@ -1,5 +1,5 @@
 resource "aws_security_group" "main" {
-    name        = "EC2-webserver-SG-1"
+    name        = "EC2-webserver"
   description = "Webserver for EC2 Instances"
   ingress {
     from_port   = 80
